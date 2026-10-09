@@ -22,8 +22,10 @@ jobs:
         with:
           node-version: 22
 
-      - name: Validate package manifest
-        run: node -e "JSON.parse(require('node:fs').readFileSync('package.json', 'utf8'))"
+      - name: Validate package and project manifests
+        run: |
+          node -e "JSON.parse(require('node:fs').readFileSync('package.json', 'utf8'))"
+          node -e "JSON.parse(require('node:fs').readFileSync('tgcloud.jsonc', 'utf8'))"
 
       - name: Check deployed JavaScript modules
         shell: bash
