@@ -113,6 +113,10 @@ Serena-Group-Management-/
 │   ├── TERMINAL_DEPLOYMENT.md
 │   └── tgcloud-sdk.md
 ├── .github/workflows/validate.yml
+├── AGENTS.md
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── SECURITY.md
 ├── package.json
 ├── tgcloud.jsonc
 ├── .gitignore
@@ -146,6 +150,8 @@ Review the diff and migration prompts before applying changes. Code deployment a
 - [Terminal deployment guide](docs/TERMINAL_DEPLOYMENT.md)
 - [tgcloud SDK reference](docs/tgcloud-sdk.md)
 - [Security policy](SECURITY.md)
+- [Contribution guide](CONTRIBUTING.md)
+- [Changelog](CHANGELOG.md)
 
 ## License
 
